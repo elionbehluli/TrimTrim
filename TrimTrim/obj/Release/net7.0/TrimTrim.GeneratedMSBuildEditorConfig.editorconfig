@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TrimTrim
 build_property.RootNamespace = TrimTrim
-build_property.ProjectDir = C:\Users\Admin\Desktop\BACHELOR\Semestri V\web\TrimTrim\TrimTrim\
+build_property.ProjectDir = C:\Users\elion\Desktop\Bachelor\Sem 5\web\TrimTrim\TrimTrim\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\BACHELOR\Semestri V\web\TrimTrim\TrimTrim
+build_property.MSBuildProjectDirectory = C:\Users\elion\Desktop\Bachelor\Sem 5\web\TrimTrim\TrimTrim
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/Admin/Login.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/Error.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/Index.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/Privacy.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/ProductMaster/Create.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/ProductMaster/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdE1hc3RlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/ProductMaster/Delete.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/ProductMaster/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdE1hc3RlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/ProductMaster/Details.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/ProductMaster/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdE1hc3RlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/ProductMaster/Edit.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/ProductMaster/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdE1hc3RlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/ProductMaster/Index.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/ProductMaster/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdE1hc3RlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/_ViewImports.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/_ViewStart.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/BACHELOR/Semestri V/web/TrimTrim/TrimTrim/Pages/Shared/_Layout.cshtml]
+[C:/Users/elion/Desktop/Bachelor/Sem 5/web/TrimTrim/TrimTrim/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zqynwnlh3k
