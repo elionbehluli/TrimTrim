@@ -1,17 +1,12 @@
-﻿@page "/Admin"
+﻿@page
 @model TrimTrim.Pages.Admin.LoginModel
-@{
-    <h2>Login</h2>
 
-    <form method="post">
-        <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="Email" class="form-control" required />
-        </div>
-        <div class="form-group">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="Password" class="form-control" required />
-        </div>
-        <button type="submit" class="btn btn-primary">Login</button>
-    </form>
-}
+<form method="post">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+</form>
