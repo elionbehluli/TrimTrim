@@ -1,0 +1,34 @@
+﻿@page
+@model TrimTrim.Pages.AppointmentsMaster.DeleteModel
+@{
+}
+<h2>Delete Appointment</h2>
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <input type="hidden" asp-for="Appointment.Id" />
+
+    <div class="form-group">
+        <label asp-for="Appointment.Date"></label>
+        <input asp-for="Appointment.Date" class="form-control" disabled />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Appointment.Time"></label>
+        <input asp-for="Appointment.Time" class="form-control" disabled />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Appointment.Description"></label>
+        <input asp-for="Appointment.Description" class="form-control" disabled />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Appointment.UserId"></label>
+        <input asp-for="Appointment.UserId" class="form-control" disabled />
+    </div>
+
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+</form>
