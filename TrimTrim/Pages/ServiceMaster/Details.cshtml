@@ -1,0 +1,21 @@
+﻿@page
+@model TrimTrim.Pages.ServiceMaster.DetailsModel
+
+<h2>Service Details</h2>
+
+<div>
+    <h4>Name</h4>
+    <p>@Model.Service.Name</p>
+</div>
+<div>
+    <h4>Price</h4>
+    <p>@Model.Service.Price</p>
+</div>
+
+<p>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-page="./Edit" asp-route-id="@Model.Service.Id">Edit</a>
+    }
+    <a asp-page="./Index">Back to List</a>
+</p>

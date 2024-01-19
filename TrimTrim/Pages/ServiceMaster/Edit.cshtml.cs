@@ -1,48 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TrimTrim.DAL;
-using TrimTrim.Models;
 
-namespace TrimTrim.Pages.Service
+namespace TrimTrim.Pages.ServiceMaster
 {
     [Authorize(Policy = "AdminOnly")]
     public class EditModel : PageModel
     {
-        private readonly TrimTrim.DAL.AppDbContext _context;
+        private readonly AppDbContext _context;
 
-        public EditModel(TrimTrim.DAL.AppDbContext context)
+        public EditModel(AppDbContext context)
         {
             _context = context;
         }
 
         [BindProperty]
-        public Product Product { get; set; } = default!;
+        public TrimTrim.Models.Service Service { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Products == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var product =  await _context.Products.FirstOrDefaultAsync(m => m.Id == id);
-            if (product == null)
+            Service = await _context.Service.FindAsync(id);
+
+            if (Service == null)
             {
                 return NotFound();
             }
-            Product = product;
+
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
@@ -50,7 +43,7 @@ namespace TrimTrim.Pages.Service
                 return Page();
             }
 
-            _context.Attach(Product).State = EntityState.Modified;
+            _context.Attach(Service);
 
             try
             {
@@ -58,7 +51,7 @@ namespace TrimTrim.Pages.Service
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ProductExists(Product.Id))
+                if (!ServiceExists(Service.Id))
                 {
                     return NotFound();
                 }
@@ -71,9 +64,9 @@ namespace TrimTrim.Pages.Service
             return RedirectToPage("./Index");
         }
 
-        private bool ProductExists(int id)
+        private bool ServiceExists(int id)
         {
-          return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
+            return _context.Service.Any(e => e.Id == id);
         }
     }
 }
