@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\TrimTrim.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\css\\Admin.css",
+      "PackagePath": "staticwebassets\\css\\Admin.css"
+    },
+    {
       "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E8mXIqh1czXnHjPYz4wk6XEXdd7eUr5TOuM0JY5hMBE=",
+  "Hash": "e0Vm0FM10kdNXFo54yMpVIXe5lTGW1RBAPJTWbkNl9A=",
   "Source": "TrimTrim",
   "BasePath": "_content/TrimTrim",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TrimTrim.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\css\\Admin.css",
+      "SourceId": "TrimTrim",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\",
+      "BasePath": "_content/TrimTrim",
+      "RelativePath": "css/Admin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Admin.css"
     },
     {
       "Identity": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\css\\site.css",
