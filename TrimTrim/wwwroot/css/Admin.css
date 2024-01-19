@@ -1,0 +1,50 @@
+﻿.container {
+    max-width: 800px;
+}
+
+.dashboard-card {
+    background-color: #ffffff;
+    border: 1px solid #d6d8db;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #343a40; /* Dark text color */
+}
+
+.dashboard-btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary color for products */
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #28a745; /* Success color for services */
+    color: #ffffff;
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Info color for appointments */
+    color: #ffffff;
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Warning color for users */
+    color: #343a40;
+}
+
+.logout-btn {
+    background-color: #dc3545; /* Danger color for logout */
+    color: #ffffff;
+}
+
+.stretched-btn {
+    width: 100%;
+}
