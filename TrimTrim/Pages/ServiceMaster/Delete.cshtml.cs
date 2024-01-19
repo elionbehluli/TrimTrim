@@ -1,61 +1,53 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using TrimTrim.DAL;
-using TrimTrim.Models;
 
-namespace TrimTrim.Pages.Service
+namespace TrimTrim.Pages.ServiceMaster
 {
     [Authorize(Policy = "AdminOnly")]
     public class DeleteModel : PageModel
     {
-        private readonly TrimTrim.DAL.AppDbContext _context;
+        private readonly AppDbContext _context;
 
-        public DeleteModel(TrimTrim.DAL.AppDbContext context)
+        public DeleteModel(AppDbContext context)
         {
             _context = context;
         }
 
         [BindProperty]
-      public Product Product { get; set; } = default!;
+        public TrimTrim.Models.Service Service { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Products == null)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var product = await _context.Products.FirstOrDefaultAsync(m => m.Id == id);
+            Service = await _context.Service.FirstOrDefaultAsync(m => m.Id == id);
 
-            if (product == null)
+            if (Service == null)
             {
                 return NotFound();
             }
-            else 
-            {
-                Product = product;
-            }
+
             return Page();
         }
 
         public async Task<IActionResult> OnPostAsync(int? id)
         {
-            if (id == null || _context.Products == null)
+            if (id == null)
             {
                 return NotFound();
             }
-            var product = await _context.Products.FindAsync(id);
 
-            if (product != null)
+            Service = await _context.Service.FindAsync(id);
+
+            if (Service != null)
             {
-                Product = product;
-                _context.Products.Remove(Product);
+                _context.Service.Remove(Service);
                 await _context.SaveChangesAsync();
             }
 

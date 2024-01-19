@@ -1,0 +1,47 @@
+﻿
+@page
+@model TrimTrim.Pages.ServiceMaster.IndexModel
+
+<h2>Services</h2>
+
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-page="./Create">Create New</a>
+    </p>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Service[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Service[0].Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var service in Model.Service)
+        {
+            <tr>
+                <td>
+                    @service.Name
+                </td>
+                <td>
+                    @service.Price
+                </td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@service.Id">Details</a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-page="./Edit" asp-route-id="@service.Id">Edit</a>
+                        <a asp-page = "./Delete" asp-route-id = "@service.Id" > Delete </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

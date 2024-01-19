@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using TrimTrim.DAL;
 using TrimTrim.Models;
 
-namespace TrimTrim.Pages.ProductMaster
+namespace TrimTrim.Pages.Service
 {
     [Authorize(Policy = "AdminOnly")]
     public class CreateModel : PageModel

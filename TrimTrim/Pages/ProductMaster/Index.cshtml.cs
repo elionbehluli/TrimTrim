@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using TrimTrim.DAL;
 using TrimTrim.Models;
 
-namespace TrimTrim.Pages.ProductMaster
+namespace TrimTrim.Pages.Service
 {
     public class IndexModel : PageModel
     {

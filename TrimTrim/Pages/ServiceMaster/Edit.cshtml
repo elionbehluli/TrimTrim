@@ -1,0 +1,19 @@
+﻿@page
+@model TrimTrim.Pages.ServiceMaster.EditModel
+
+<h2>Edit Service</h2>
+
+<form method="post">
+    <div>
+        <label asp-for="Service.Name"></label>
+        <input asp-for="Service.Name" />
+        <span asp-validation-for="Service.Name"></span>
+    </div>
+    <div>
+        <label asp-for="Service.Price"></label>
+        <input asp-for="Service.Price" />
+        <span asp-validation-for="Service.Price"></span>
+    </div>
+    <button type="submit">Save changes</button>
+    <a asp-page="./Index">Back to List</a>
+</form>
