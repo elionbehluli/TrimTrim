@@ -1,0 +1,38 @@
+﻿@page
+@model TrimTrim.Pages.AppointmentsMaster.EditModel
+@{
+}
+<h2>Edit Appointment</h2>
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <input type="hidden" asp-for="Appointment.Id" />
+
+    <div class="form-group">
+        <label asp-for="Appointment.Date"></label>
+        <input asp-for="Appointment.Date" class="form-control" />
+        <span asp-validation-for="Appointment.Date" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Appointment.Time"></label>
+        <input asp-for="Appointment.Time" class="form-control" />
+        <span asp-validation-for="Appointment.Time" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Appointment.Description"></label>
+        <input asp-for="Appointment.Description" class="form-control" />
+        <span asp-validation-for="Appointment.Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Appointment.UserId"></label>
+        <input asp-for="Appointment.UserId" class="form-control" />
+        <span asp-validation-for="Appointment.UserId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+</form>

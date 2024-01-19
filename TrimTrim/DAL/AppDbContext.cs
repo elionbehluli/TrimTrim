@@ -13,6 +13,7 @@ namespace TrimTrim.DAL
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Admin> Admin { get; set; }
         public virtual DbSet<Service> Service { get; set; }
+        public virtual DbSet<Appointments> Appointments { get; set; }
 
     }
 }
