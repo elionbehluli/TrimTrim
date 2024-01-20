@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\TrimTrim.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\Images\\backgroundBarber.jpg",
+      "PackagePath": "staticwebassets\\Images\\backgroundBarber.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\css\\Admin.css",
       "PackagePath": "staticwebassets\\css\\Admin.css"
     },

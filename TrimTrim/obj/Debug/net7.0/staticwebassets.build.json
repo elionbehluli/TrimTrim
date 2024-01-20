@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YlgszckjHN/7wbfqdhC1pIy1AJB+wurR87flaEN7EQM=",
+  "Hash": "/GIA8XBj8ngWIc6ADJE1J3RHuAvaKAPcGbA8U8CSc+s=",
   "Source": "TrimTrim",
   "BasePath": "_content/TrimTrim",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\Images\\backgroundBarber.jpg",
+      "SourceId": "TrimTrim",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\",
+      "BasePath": "_content/TrimTrim",
+      "RelativePath": "Images/backgroundBarber.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\backgroundBarber.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\js\\site.js",
