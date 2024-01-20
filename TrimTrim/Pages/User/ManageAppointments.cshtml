@@ -1,0 +1,27 @@
+﻿@page
+@model TrimTrim.Pages.User.ManageAppointmentsModel
+@{
+}
+<h2>All Appointments</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Description</th>
+            <!-- Add additional columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var appointment in Model.UserAppointments)
+        {
+            <tr>
+                <td>@appointment.Date</td>
+                <td>@appointment.Time</td>
+                <td>@appointment.Description</td>
+                <!-- Add additional columns as needed -->
+            </tr>
+        }
+    </tbody>
+</table>
