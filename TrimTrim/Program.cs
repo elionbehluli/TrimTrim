@@ -1,7 +1,8 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TrimTrim.DAL;
-
+using TrimTrim.Models;
 
 internal class Program
 {
@@ -24,7 +25,7 @@ internal class Program
             (builder.Configuration.GetConnectionString
             ("DefaultConnection"))
             );
-
+        
         builder.Services.AddAuthorization(options =>
         {
             options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\Admin.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\css\\LogIn.css",
+      "PackagePath": "staticwebassets\\css\\LogIn.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

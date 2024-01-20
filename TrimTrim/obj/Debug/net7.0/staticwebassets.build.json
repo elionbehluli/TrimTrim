@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+Ebhx1bg1Lv2ILraIfMfYyhnjATnGLHd2CiDOladwAI=",
+  "Hash": "cF8NvTTkULBO5uUrcABuRugzJxX36RWdMHzkJQIzeDM=",
   "Source": "TrimTrim",
   "BasePath": "_content/TrimTrim",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Admin.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\css\\LogIn.css",
+      "SourceId": "TrimTrim",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\",
+      "BasePath": "_content/TrimTrim",
+      "RelativePath": "css/LogIn.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LogIn.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\css\\site.css",

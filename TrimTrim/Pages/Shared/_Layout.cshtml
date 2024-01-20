@@ -45,13 +45,17 @@
                                 <a class="nav-link text-dark" asp-area="" asp-page="/Admin/AdminDashboard">Dashboard</a>
                             </li>
                         }
-
-                        @if (User.Identity.IsAuthenticated)
-                        {
+                        
+                       
                             <li class="nav-item">
-                                <a class="nav-link" asp-page="./Logout">Logout</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="/User/LogIn">LogIn</a>
                             </li>
-                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/User/SingUp">SingUp</a>
+                        </li>
+                        
+
+
                     </ul>
                 </div>
             </div>
