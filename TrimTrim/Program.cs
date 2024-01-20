@@ -28,6 +28,14 @@ internal class Program
         builder.Services.AddAuthorization(options =>
         {
             options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+            
+        });
+        builder.Services.AddAuthorization(options =>
+        {
+            options.AddPolicy("UserOnly", policy =>
+            {
+                policy.RequireAuthenticatedUser(); // Require the user to be authenticated
+            });
         });
 
         builder.Services.ConfigureApplicationCookie(options =>
