@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/GIA8XBj8ngWIc6ADJE1J3RHuAvaKAPcGbA8U8CSc+s=",
+  "Hash": "+Ebhx1bg1Lv2ILraIfMfYyhnjATnGLHd2CiDOladwAI=",
   "Source": "TrimTrim",
   "BasePath": "_content/TrimTrim",
   "Mode": "Default",
@@ -1122,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\Images\\backgroundBarber.jpg",
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\Images\\backgroundBarber1.jpg",
       "SourceId": "TrimTrim",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\",
       "BasePath": "_content/TrimTrim",
-      "RelativePath": "Images/backgroundBarber.jpg",
+      "RelativePath": "Images/backgroundBarber1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,7 +1136,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\backgroundBarber.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\backgroundBarber1.jpg"
     },
     {
       "Identity": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\wwwroot\\js\\site.js",

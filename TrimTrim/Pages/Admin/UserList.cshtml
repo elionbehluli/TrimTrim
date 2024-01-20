@@ -1,0 +1,38 @@
+﻿@page
+@model TrimTrim.Pages.Admin.UserListModel
+@{
+}
+<div style ="background-color:white">
+
+    <h2>User List</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Email</th>
+                <th>Username</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Users)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.Email</td>
+                    <td>@user.UserName</td>
+                    <td>
+                        <form method="post" asp-page-handler="DeleteUser">
+                            <input type="hidden" name="DeleteUserId" value="@user.Id" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+
