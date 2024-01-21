@@ -29,7 +29,12 @@ internal class Program
         builder.Services.AddAuthorization(options =>
         {
             options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
-            
+            options.AddPolicy("UserOnly", policy =>
+            {
+                policy.RequireAuthenticatedUser(); // Require the user to be authenticated
+                policy.RequireRole("User");
+            });
+
         });
         builder.Services.AddAuthorization(options =>
         {

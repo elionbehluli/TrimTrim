@@ -49,7 +49,17 @@ namespace TrimTrim.Pages.User
 
                     if (result.Succeeded)
                     {
-                        return RedirectToPage("./UserDashboard"); // Redirect to the desired page after login
+                        var isInAdminRole = await _userManager.IsInRoleAsync(user, "Admin");
+
+                        if (!isInAdminRole)
+                        {
+                            return RedirectToPage("./UserDashboard"); // Redirect to the desired page after login
+                        }
+                        else
+                        {
+                            return Page();
+                        }
+
                     }
                     else
                     {

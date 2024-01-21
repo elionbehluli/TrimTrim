@@ -60,11 +60,11 @@ namespace TrimTrim.Pages.Admin
                         // Redirect to the admin dashboard
                         return RedirectToPage("/Admin/AdminDashboard");
                     }
-                    else
-                    {
-                        // Redirect to a different page for non-admin users
-                        return RedirectToPage("/UserDashboard");
-                    }
+                    //else
+                    //{
+                    //    // Redirect to a different page for non-admin users
+                    //    return RedirectToPage("/UserDashboard");
+                    //}
                 }
 
                 ModelState.AddModelError(string.Empty, "Invalid login attempt");

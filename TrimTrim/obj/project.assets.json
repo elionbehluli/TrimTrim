@@ -11625,19 +11625,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\elion\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\TrimTrim.csproj",
+      "projectUniqueName": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\TrimTrim.csproj",
       "projectName": "TrimTrim",
-      "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\TrimTrim.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim2\\TrimTrim\\TrimTrim\\obj\\",
+      "projectPath": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\TrimTrim.csproj",
+      "packagesPath": "C:\\Users\\elion\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elion\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11727,7 +11727,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
