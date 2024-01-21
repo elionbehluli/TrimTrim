@@ -27,17 +27,24 @@ namespace TrimTrim.Pages.ServiceMaster
         public void OnPost()
         {
             // Handle the search
+            IQueryable<TrimTrim.Models.Service> query = _context.Service;
+
             if (!string.IsNullOrEmpty(Search?.SearchTerm))
             {
-                Service = _context.Service
-                    .Where(p => EF.Functions.Like(p.Name, $"%{Search.SearchTerm}%"))
-                    .ToList();
+                query = query
+                    .Where(p => EF.Functions.Like(p.Name, $"%{Search.SearchTerm}%"));
             }
-            else
+
+            // Apply additional filters based on user-specified criteria
+            if (Search?.MinPrice.HasValue ?? false)
             {
-                // Load all data if no search term is provided
-                Service = _context.Service.ToList();
+                query = query
+                    .Where(p => (double)p.Price >= Search.MinPrice.Value);
             }
+
+            // Execute the final query
+            Service = query.ToList();
         }
+    
     }
 }

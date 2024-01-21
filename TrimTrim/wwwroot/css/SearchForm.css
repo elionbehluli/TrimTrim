@@ -1,0 +1,43 @@
+﻿.search-form {
+    background-color: #2c3e50; /* Dark blue color */
+    color: #fff; /* White text */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Style for the search input and button */
+.search-input {
+    margin-right: 10px;
+
+}
+
+/* Style for the table */
+.service-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+    /* Style for the table headers */
+    .service-table th {
+        background-color: #2c3e50; /* Dark blue color */
+        color: #fff; /* White text */
+    }
+
+    /* Style for alternating rows in the table */
+    .service-table tbody tr:nth-child(even) {
+        background-color: #f2f2f2; /* Light gray color */
+    }
+
+    /* Style for the table cells */
+    .service-table td {
+        padding: 10px;
+    }
+
+/* Style for the "Create New" link */
+.create-new-link {
+    margin-top: 20px;
+}
+.search-button{
+    margin-top: 10px;
+}
