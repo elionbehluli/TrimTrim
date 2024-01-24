@@ -1,9 +1,12 @@
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using TrimTrim.DAL;
-using Microsoft.EntityFrameworkCore;
-using TrimTrim.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using TrimTrim.DAL;
+using TrimTrim.Models;
 
 namespace TrimTrim.Pages.ServiceMaster
 {
@@ -18,9 +21,12 @@ namespace TrimTrim.Pages.ServiceMaster
 
         [BindProperty]
         public SearchModel Search { get; set; }
-        public IList<TrimTrim.Models.Service> Service { get; set; }
 
-        public async Task OnGetAsync(string? sort, TrimTrim.Models.SortOrder? sortOrder)
+        // Define the Service property
+        public PaginatedList<TrimTrim.Models.Service> Service { get; set; }
+        public int PageSize { get; set; } = 3; // Adjust the page size as needed
+
+        public async Task OnGetAsync(string? sort, TrimTrim.Models.SortOrder? sortOrder, int? pageIndex)
         {
             IQueryable<TrimTrim.Models.Service> query = _context.Service;
 
@@ -41,7 +47,13 @@ namespace TrimTrim.Pages.ServiceMaster
                 // Add more cases for other sorting options if needed
             }
 
-            Service = await query.ToListAsync();
+            
+           
+            // Pass sort and sortOrder to the view
+            
+            ViewData["Sort"] = sort;
+            ViewData["SortOrder"] = sortOrder;
+            Service = await PaginatedList<TrimTrim.Models.Service>.CreateAsync(query.AsNoTracking(), pageIndex ?? 1, PageSize);
         }
 
         public void OnPost()
@@ -72,9 +84,8 @@ namespace TrimTrim.Pages.ServiceMaster
                 query = query.OrderByDescending(p => p.Price);
             }
 
-            // Execute the final query
-            Service = query.ToList();
+            // Instantiate PaginatedList with the correct totalCount
+            Service = PaginatedList<TrimTrim.Models.Service>.CreateAsync(query.AsNoTracking(), 1, PageSize).Result;
         }
-    
     }
 }

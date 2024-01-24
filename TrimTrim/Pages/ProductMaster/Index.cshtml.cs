@@ -1,27 +1,20 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.SqlClient;
-using Microsoft.EntityFrameworkCore;
 using TrimTrim.DAL;
 using TrimTrim.Models;
 
-namespace TrimTrim.Pages.Service
+namespace TrimTrim.Pages.ProductMaster
 {
-    //public enum SortOrder
-    //{
-    //    Ascending,
-    //    Descending
-    //}
-
     public class IndexModel : PageModel
     {
-        private readonly TrimTrim.DAL.AppDbContext _context;
+        private readonly AppDbContext _context;
 
-        public IndexModel(TrimTrim.DAL.AppDbContext context)
+        public IndexModel(AppDbContext context)
         {
             _context = context;
         }
@@ -29,40 +22,41 @@ namespace TrimTrim.Pages.Service
         [BindProperty]
         public SearchModel Search { get; set; }
 
-        public IList<Product> Product { get;set; } = default!;
+        // Define the Product property
+        public PaginatedList<TrimTrim.Models.Product> Product { get; set; }
+        public int PageSize { get; set; } = 3; // Adjust the page size as needed
 
-        public async Task OnGetAsync(string? sort, TrimTrim.Models.SortOrder? sortOrder)
+        public async Task OnGetAsync(string? sort, TrimTrim.Models.SortOrder? sortOrder, int? pageIndex)
         {
-            if (_context.Products != null)
+            IQueryable<TrimTrim.Models.Product> query = _context.Products;
+
+            // Apply sorting based on the sort parameter and sort order
+            if (!string.IsNullOrEmpty(sort))
             {
-                IQueryable<Product> query = _context.Products;
-
-                // Apply sorting based on the sort parameter and sort order
-                if (!string.IsNullOrEmpty(sort))
+                if (sort.Equals("Price", StringComparison.OrdinalIgnoreCase))
                 {
-                    if (sort.Equals("Price", StringComparison.OrdinalIgnoreCase))
+                    if (sortOrder == TrimTrim.Models.SortOrder.Ascending)
                     {
-                        if (sortOrder == TrimTrim.Models.SortOrder.Ascending)
-                        {
-                            query = query.OrderBy(p => p.Price);
-                        }
-                        else if (sortOrder == TrimTrim.Models.SortOrder.Descending)
-                        {
-                            query = query.OrderByDescending(p => p.Price);
-                        }
+                        query = query.OrderBy(p => p.Price);
                     }
-                    // Add more cases for other sorting options if needed
+                    else if (sortOrder == TrimTrim.Models.SortOrder.Descending)
+                    {
+                        query = query.OrderByDescending(p => p.Price);
+                    }
                 }
-
-                Product = await query.ToListAsync();
+                // Add more cases for other sorting options if needed
             }
-        }
 
+            // Pass sort and sortOrder to the view
+            ViewData["Sort"] = sort;
+            ViewData["SortOrder"] = sortOrder;
+            Product = await PaginatedList<TrimTrim.Models.Product>.CreateAsync(query.AsNoTracking(), pageIndex ?? 1, PageSize);
+        }
 
         public void OnPost()
         {
             // Handle the search
-            IQueryable<Product> query = _context.Products;
+            IQueryable<TrimTrim.Models.Product> query = _context.Products;
 
             if (!string.IsNullOrEmpty(Search?.SearchTerm))
             {
@@ -74,7 +68,7 @@ namespace TrimTrim.Pages.Service
             if (Search?.MinPrice.HasValue ?? false)
             {
                 query = query
-                    .Where(p => p.Price >= Search.MinPrice.Value);
+                    .Where(p => (double)p.Price >= Search.MinPrice.Value);
             }
 
             // Apply sorting based on the Price property
@@ -87,9 +81,8 @@ namespace TrimTrim.Pages.Service
                 query = query.OrderByDescending(p => p.Price);
             }
 
-            // Execute the final query
-            Product = query.ToList();
+            // Instantiate PaginatedList with the correct totalCount
+            Product = PaginatedList<TrimTrim.Models.Product>.CreateAsync(query.AsNoTracking(), 1, PageSize).Result;
         }
-
     }
 }
