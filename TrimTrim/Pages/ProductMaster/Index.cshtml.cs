@@ -4,12 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using TrimTrim.DAL;
 using TrimTrim.Models;
 
 namespace TrimTrim.Pages.Service
 {
+    //public enum SortOrder
+    //{
+    //    Ascending,
+    //    Descending
+    //}
+
     public class IndexModel : PageModel
     {
         private readonly TrimTrim.DAL.AppDbContext _context;
@@ -24,13 +31,33 @@ namespace TrimTrim.Pages.Service
 
         public IList<Product> Product { get;set; } = default!;
 
-        public async Task OnGetAsync()
+        public async Task OnGetAsync(string? sort, TrimTrim.Models.SortOrder? sortOrder)
         {
             if (_context.Products != null)
             {
-                Product = await _context.Products.ToListAsync();
+                IQueryable<Product> query = _context.Products;
+
+                // Apply sorting based on the sort parameter and sort order
+                if (!string.IsNullOrEmpty(sort))
+                {
+                    if (sort.Equals("Price", StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (sortOrder == TrimTrim.Models.SortOrder.Ascending)
+                        {
+                            query = query.OrderBy(p => p.Price);
+                        }
+                        else if (sortOrder == TrimTrim.Models.SortOrder.Descending)
+                        {
+                            query = query.OrderByDescending(p => p.Price);
+                        }
+                    }
+                    // Add more cases for other sorting options if needed
+                }
+
+                Product = await query.ToListAsync();
             }
         }
+
 
         public void OnPost()
         {
@@ -50,8 +77,19 @@ namespace TrimTrim.Pages.Service
                     .Where(p => p.Price >= Search.MinPrice.Value);
             }
 
+            // Apply sorting based on the Price property
+            if (Search.SortOrder == TrimTrim.Models.SortOrder.Ascending)
+            {
+                query = query.OrderBy(p => p.Price);
+            }
+            else if (Search.SortOrder == TrimTrim.Models.SortOrder.Descending)
+            {
+                query = query.OrderByDescending(p => p.Price);
+            }
+
             // Execute the final query
             Product = query.ToList();
         }
+
     }
 }

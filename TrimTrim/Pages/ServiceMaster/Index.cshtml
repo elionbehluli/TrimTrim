@@ -15,6 +15,11 @@
             <input type="number" asp-for="Search.MinPrice" class="form-control" />
         </div>
         <button type="submit" class="btn btn-light search-button">Search</button>
+
+        <!-- Add a link or button for sorting by Price -->
+        <a asp-page="./Index" asp-route-sort="Price" asp-route-sortOrder="Ascending" class="btn btn-light search-button">Sort by Lowest Price</a>
+        <a asp-page="./Index" asp-route-sort="Price" asp-route-sortOrder="Descending" class="btn btn-light search-button">Sort by Highest Price</a>
+
     </form>
 
     <h2>Services</h2>
