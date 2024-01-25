@@ -29,6 +29,20 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Product.Qty)
         </dd>
+        <!-- Display Photo -->
+        <dt class="col-sm-2">
+            Photo
+        </dt>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.Product?.PhotoPath))
+            {
+                <img src="~/images/@Url.Content(Model.Product.PhotoPath)" alt="Product Photo" class="img-thumbnail" />
+            }
+            else
+            {
+                <span>No Photo Available</span>
+            }
+        </dd>
     </dl>
 </div>
 <div>

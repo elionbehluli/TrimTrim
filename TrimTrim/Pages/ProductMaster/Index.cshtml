@@ -40,7 +40,7 @@
                 </p>
             }
 
-            <table class="table">
+            @* <table class="table">
                 <thead>
                     <tr>
                         <th>
@@ -79,7 +79,37 @@
                         </tr>
                     }
                 </tbody>
-            </table>
+            </table> *@
+            <div class="row">
+                @foreach (var item in Model.Product.Items)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            @if (!string.IsNullOrEmpty(item.PhotoPath))
+                            {
+                                <img src="~/images/@item.PhotoPath" class="card-img-top product-image" alt="Product Image">
+                            }
+                            else
+                            {
+                                <img src="~/images/nophoto.png" class="card-img-top product-image" alt="Product Image">
+                            }
+                            <div class="card-body">
+                                <h5 class="card-title">@Html.DisplayFor(modelItem => item.ProductName)</h5>
+                                <p class="card-text">Price: @Html.DisplayFor(modelItem => item.Price)</p>
+                                <p class="card-text">Qty: @Html.DisplayFor(modelItem => item.Qty)</p>
+                                <div>
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                                        <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                                    }
+                                    <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
             <div class="pagination" style="margin-bottom:auto">
                 <nav aria-label="Page navigation">
                     <ul class="pagination">
@@ -103,3 +133,13 @@
     </div>
 </div>
 <link rel="stylesheet" href="~/css/SearchForm.css" />
+<style>
+    .product-image {
+        height: 100%; /* Set the desired height for the product images */
+        object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+        width: 100%; /* Ensure the image takes up the entire width of the container */
+    }
+    /* .card {
+        width: 50%;
+    } */
+</style>

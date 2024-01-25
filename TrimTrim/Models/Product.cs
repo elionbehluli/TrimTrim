@@ -13,5 +13,7 @@ namespace TrimTrim.Models
         public double Price { get; set; }
         [Required]
         public int Qty { get; set; }
+
+        public string PhotoPath { get; set; }
     }
 }

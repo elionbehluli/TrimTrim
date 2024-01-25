@@ -24,7 +24,7 @@ namespace TrimTrim.Pages.ProductMaster
 
         // Define the Product property
         public PaginatedList<TrimTrim.Models.Product> Product { get; set; }
-        public int PageSize { get; set; } = 3; // Adjust the page size as needed
+        public int PageSize { get; set; } = 6; // Adjust the page size as needed
 
         public async Task OnGetAsync(string? sort, TrimTrim.Models.SortOrder? sortOrder, int? pageIndex)
         {
