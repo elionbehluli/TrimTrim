@@ -44,3 +44,7 @@ body {
     padding: 10px 0;
     text-align: center;
 }
+
+.active {
+   border-bottom: 2px solid blue;
+}

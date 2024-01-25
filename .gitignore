@@ -1,1 +1,4 @@
 TrimTrim/appsettings.json
+bin/
+obj/
+.vs/
