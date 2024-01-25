@@ -5,7 +5,7 @@
 }
 
 
-<form method="post">
+<form method="post" onsubmit="return validatePassword()">
     <div>
         <label asp-for="Input.Email"></label>
         <input asp-for="Input.Email" />
@@ -22,6 +22,7 @@
         <label asp-for="Input.Password"></label>
         <input asp-for="Input.Password" />
         <span asp-validation-for="Input.Password"></span>
+        <span id="passwordError" class="text-danger"></span>
     </div>
 
     <div>
@@ -37,3 +38,32 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+<script>
+  function validatePassword() {
+        var passwordInput = document.getElementById('password');
+        var passwordError = document.getElementById('passwordError');
+        var password = passwordInput.value;
+
+        // Your custom password validation logic
+        var isValid = isPasswordValid(password);
+
+        if (!isValid) {
+            passwordError.innerText = "The password should be at least 8 digits, have Uppercase, have numbers, and have special characters.";
+            onsubmit = "return validatePassword()"
+        } else {
+            passwordError.innerText = ""; // Clear previous error message
+        }
+
+        return isValid;
+    }
+
+    function isPasswordValid(password) {
+        // Your custom password validation logic here
+        var minLength = 8;
+        var hasUpperCase = /[A-Z]/.test(password);
+        var hasNumber = /\d/.test(password);
+        var hasSpecialChar = /[!#$%^&*(),.?":{}|<>]/.test(password);
+
+        return password.length >= minLength && hasUpperCase && hasNumber && hasSpecialChar;
+    }
+</script>

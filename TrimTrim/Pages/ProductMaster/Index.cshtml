@@ -40,46 +40,7 @@
                 </p>
             }
 
-            @* <table class="table">
-                <thead>
-                    <tr>
-                        <th>
-                            @Html.DisplayNameFor(model => model.Product.Items[0].ProductName)
-                        </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.Product.Items[0].Price)
-                        </th>
-                        <th>
-                            @Html.DisplayNameFor(model => model.Product.Items[0].Qty)
-                        </th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model.Product.Items)
-                    {
-                        <tr>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.ProductName)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Price)
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.Qty)
-                            </td>
-                            <td>
-                                @if (User.IsInRole("Admin"))
-                                {
-                                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
-                                    <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                                }
-                                <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table> *@
+          
             <div class="row">
                 @foreach (var item in Model.Product.Items)
                 {

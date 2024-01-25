@@ -37,11 +37,20 @@ namespace TrimTrim.Pages.Service
 
         public async Task<IActionResult> OnPostAsync()
         {
+            ModelState.Remove("Product.PhotoPath");
+            if (!ModelState.IsValid || _context.Products == null || Product == null)
+            {
+                foreach (var prop in ModelState.Keys)
+                {
+                    var errors = ModelState[prop].Errors;
+                    foreach (var error in errors)
+                    {
+                        Console.WriteLine($"Validation error for property {prop}: {error.ErrorMessage}");
+                    }
+                }
 
-            //if (!ModelState.IsValid || _context.Products == null || Product == null)
-            //{
-            //    return Page();
-            //}
+                return Page();
+            }
 
             // Check if a file was uploaded
             if (PhotoUpload != null && PhotoUpload.Length > 0)

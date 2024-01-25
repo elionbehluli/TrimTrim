@@ -48,6 +48,15 @@ namespace TrimTrim.Pages.User
         {
             if (ModelState.IsValid)
             {
+                var passwordErrors = ModelState["Input.Password"].Errors;
+                foreach (var error in passwordErrors)
+                {
+                    if (error.ErrorMessage.Contains("Password must be at least"))
+                    {
+                        ModelState.AddModelError("Input.Password", "The password should be at least 8 digits, have Uppercase, have numbers, and have special characters.");
+                        break; // Break out of the loop once we set the custom message
+                    }
+                }
                 var user = new IdentityUser { UserName = Input.Email, Email = Input.Email, PhoneNumber = Input.PhoneNumber };
                 var result = await _userManager.CreateAsync(user, Input.Password);
 

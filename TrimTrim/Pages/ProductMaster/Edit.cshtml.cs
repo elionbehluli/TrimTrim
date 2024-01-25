@@ -52,11 +52,11 @@ namespace TrimTrim.Pages.Service
         // For more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-
-            //if (!ModelState.IsValid)
-            //{ 
-            //    return Page();
-            //}
+            ModelState.Remove("Product.PhotoPath");
+            if (!ModelState.IsValid)
+            { 
+                return Page();
+            }
 
 
             // Delete existing photo file

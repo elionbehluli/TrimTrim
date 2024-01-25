@@ -15,7 +15,16 @@ internal class Program
 
         //DI
 
-        builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+        builder.Services.AddDefaultIdentity<IdentityUser>(options => {
+            options.SignIn.RequireConfirmedAccount = false;
+            // Configure password requirements
+            options.Password.RequireDigit = true;
+            options.Password.RequiredLength = 8;
+            options.Password.RequireUppercase = true;
+            options.Password.RequireNonAlphanumeric = true;
+          
+        })
+            
             .AddRoles<IdentityRole>()
             .AddEntityFrameworkStores<AppDbContext>();
 
@@ -36,6 +45,7 @@ internal class Program
             });
 
         });
+        
         builder.Services.AddAuthorization(options =>
         {
             options.AddPolicy("UserOnly", policy =>
