@@ -14,6 +14,7 @@ namespace TrimTrim.DAL
         public virtual DbSet<Admin> Admin { get; set; }
         public virtual DbSet<Service> Service { get; set; }
         public virtual DbSet<Appointments> Appointments { get; set; }
+        public virtual DbSet<UserProductPremission> UserProductPremissions { get; set; }
 
     }
 }

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System;
 using TrimTrim.DAL;
 using TrimTrim.Models;
 
@@ -37,15 +38,14 @@ internal class Program
         
         builder.Services.AddAuthorization(options =>
         {
-            options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
             options.AddPolicy("UserOnly", policy =>
             {
                 policy.RequireAuthenticatedUser(); // Require the user to be authenticated
                 policy.RequireRole("User");
             });
-
+            options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
         });
-        
+
         builder.Services.AddAuthorization(options =>
         {
             options.AddPolicy("UserOnly", policy =>
@@ -59,6 +59,8 @@ internal class Program
             options.LoginPath = "/Admin/Login"; // Specify your custom login path
             options.AccessDeniedPath = "/Admin/Login"; // Specify your custom access denied path
         });
+
+        builder.Services.AddMvc();
 
         var app = builder.Build();
 
@@ -83,6 +85,7 @@ internal class Program
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapRazorPages();
+            endpoints.MapControllers();
         });
 
         app.Run();

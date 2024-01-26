@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace TrimTrim.Pages.Admin
 {
-    [Authorize(Policy = "AdminOnly")]
+    //[Authorize(Policy = "AdminOnly")]
     public class UserListModel : PageModel
     {
         private readonly UserManager<IdentityUser> _userManager;
@@ -28,6 +28,23 @@ namespace TrimTrim.Pages.Admin
             // Filter users who do not have the "Admin" role in-memory
             Users = allUsers.Where(u => !_userManager.IsInRoleAsync(u, "Admin").Result).ToList();
 
+        }
+
+        [HttpGet]
+        [Route("Admin/FetchUsers")]
+        public async Task<IActionResult> OnGetFetchUsersAsync()
+        {
+            var allUsers = await _userManager.Users.ToListAsync();
+
+            // Filter users who do not have the "Admin" role
+            var users = allUsers.Where(u => !_userManager.IsInRoleAsync(u, "Admin").Result).Select(u => new
+            {
+                Id = u.Id,
+                UserName = u.UserName,
+                Email = u.Email
+            });
+
+            return new JsonResult(allUsers);
         }
         public async Task<IActionResult> OnPostDeleteUserAsync()
         {

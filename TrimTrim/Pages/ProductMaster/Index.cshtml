@@ -44,7 +44,7 @@
             <div class="row">
                 @foreach (var item in Model.Product.Items)
                 {
-                    <div class="col-md-4 mb-4">
+                     <div class="col-md-4 mb-4">
                         <div class="card">
                             @if (!string.IsNullOrEmpty(item.PhotoPath))
                             {
@@ -59,7 +59,7 @@
                                 <p class="card-text">Price: @Html.DisplayFor(modelItem => item.Price)</p>
                                 <p class="card-text">Qty: @Html.DisplayFor(modelItem => item.Qty)</p>
                                 <div>
-                                    @if (User.IsInRole("Admin"))
+                                    @if (User.IsInRole("Admin") || Model.HasPermission(item.Id))
                                     {
                                         <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
                                         <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
@@ -93,6 +93,7 @@
         </div>
     </div>
 </div>
+
 <link rel="stylesheet" href="~/css/SearchForm.css" />
 <style>
     .product-image {
@@ -100,7 +101,12 @@
         object-fit: cover; /* Maintain aspect ratio and cover the entire container */
         width: 100%; /* Ensure the image takes up the entire width of the container */
     }
+
+    
     /* .card {
         width: 50%;
     } */
 </style>
+<script>
+    
+</script>

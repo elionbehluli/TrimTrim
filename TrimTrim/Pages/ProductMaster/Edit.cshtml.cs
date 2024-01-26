@@ -13,7 +13,6 @@ using TrimTrim.Models;
 
 namespace TrimTrim.Pages.Service
 {
-    [Authorize(Policy = "AdminOnly")]
     public class EditModel : PageModel
     {
         private readonly AppDbContext _context;

@@ -1,299 +1,299 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TrimTrim.bundle.scp.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TrimTrim.bundle.scp.css",
       "PackagePath": "staticwebassets\\TrimTrim.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\css\\Admin.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\css\\Admin.css",
       "PackagePath": "staticwebassets\\css\\Admin.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\css\\LogIn.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\css\\LogIn.css",
       "PackagePath": "staticwebassets\\css\\LogIn.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\css\\SearchForm.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\css\\SearchForm.css",
       "PackagePath": "staticwebassets\\css\\SearchForm.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\images\\433a8945-177f-4be3-ae31-3cf8dbbabca0.jpg",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\images\\433a8945-177f-4be3-ae31-3cf8dbbabca0.jpg",
       "PackagePath": "staticwebassets\\images\\433a8945-177f-4be3-ae31-3cf8dbbabca0.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\images\\81020e9a-3f71-4a85-8e42-e4274c861589.jpg",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\images\\81020e9a-3f71-4a85-8e42-e4274c861589.jpg",
       "PackagePath": "staticwebassets\\images\\81020e9a-3f71-4a85-8e42-e4274c861589.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\images\\956c8dff-fe56-4481-a61b-c550028277df_backgroundBarber1.jpg",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\images\\956c8dff-fe56-4481-a61b-c550028277df_backgroundBarber1.jpg",
       "PackagePath": "staticwebassets\\images\\956c8dff-fe56-4481-a61b-c550028277df_backgroundBarber1.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\images\\c89667a5-5f74-4d0c-b043-2b95c8afbf6a_trimmer.jpg",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\images\\c89667a5-5f74-4d0c-b043-2b95c8afbf6a_trimmer.jpg",
       "PackagePath": "staticwebassets\\images\\c89667a5-5f74-4d0c-b043-2b95c8afbf6a_trimmer.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\images\\d618bd64-a6b1-4476-b76f-009f54ddcc6f_trimmer.jpg",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\images\\d618bd64-a6b1-4476-b76f-009f54ddcc6f_trimmer.jpg",
       "PackagePath": "staticwebassets\\images\\d618bd64-a6b1-4476-b76f-009f54ddcc6f_trimmer.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\images\\d753d024-3e91-4ae9-bc90-5c3869d12913.jpg",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\images\\d753d024-3e91-4ae9-bc90-5c3869d12913.jpg",
       "PackagePath": "staticwebassets\\images\\d753d024-3e91-4ae9-bc90-5c3869d12913.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\images\\d80298bc-9f10-4deb-b91f-e305e55b5d3f_trimmer.jpg",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\images\\d80298bc-9f10-4deb-b91f-e305e55b5d3f_trimmer.jpg",
       "PackagePath": "staticwebassets\\images\\d80298bc-9f10-4deb-b91f-e305e55b5d3f_trimmer.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\images\\ff78d3d9-7ee7-4ee3-b07f-a5db6d9738fe.jpg",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\images\\ff78d3d9-7ee7-4ee3-b07f-a5db6d9738fe.jpg",
       "PackagePath": "staticwebassets\\images\\ff78d3d9-7ee7-4ee3-b07f-a5db6d9738fe.jpg"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\images\\nophoto.png",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\images\\nophoto.png",
       "PackagePath": "staticwebassets\\images\\nophoto.png"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\js\\forms.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\js\\forms.js",
       "PackagePath": "staticwebassets\\js\\forms.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\OneDrive\\Desktop\\TrimTrim1\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\elion\\Desktop\\Bachelor\\Sem 5\\web\\TrimTrim\\TrimTrim\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
