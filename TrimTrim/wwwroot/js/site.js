@@ -72,3 +72,7 @@ $('#grantPermissionBtn').on('click', function () {
     // Close the modal
     $('#userSelectionModal').modal('hide');
 });
+$('#closePermissionBtn').on('click', function () {
+    // Close the modal
+    $('#userSelectionModal').modal('hide');
+});

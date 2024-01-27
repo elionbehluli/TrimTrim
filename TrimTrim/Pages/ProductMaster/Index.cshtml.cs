@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using TrimTrim.DAL;
@@ -16,11 +18,12 @@ namespace TrimTrim.Pages.ProductMaster
     {
         private readonly AppDbContext _context;
         private readonly UserManager<IdentityUser> _userManager;
-
-        public IndexModel(AppDbContext context, UserManager<IdentityUser> userManager)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public IndexModel(AppDbContext context, UserManager<IdentityUser> userManager, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
             _userManager = userManager;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         [BindProperty]
@@ -51,12 +54,12 @@ namespace TrimTrim.Pages.ProductMaster
                 // Add more cases for other sorting options if needed
             }
 
+
             
             // Pass sort and sortOrder to the view
             ViewData["Sort"] = sort;
             ViewData["SortOrder"] = sortOrder;
-            
-            
+
             Product = await PaginatedList<TrimTrim.Models.Product>.CreateAsync(query.AsNoTracking(), pageIndex ?? 1, PageSize);
         }
         public bool HasPermission(int productId)
@@ -95,5 +98,7 @@ namespace TrimTrim.Pages.ProductMaster
             // Instantiate PaginatedList with the correct totalCount
             Product = PaginatedList<TrimTrim.Models.Product>.CreateAsync(query.AsNoTracking(), 1, PageSize).Result;
         }
+
+        
     }
 }

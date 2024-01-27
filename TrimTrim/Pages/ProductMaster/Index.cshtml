@@ -46,14 +46,16 @@
                 {
                      <div class="col-md-4 mb-4">
                         <div class="card">
-                            @if (!string.IsNullOrEmpty(item.PhotoPath))
-                            {
-                                <img src="~/images/@item.PhotoPath" class="card-img-top product-image" alt="Product Image">
-                            }
-                            else
-                            {
-                                <img src="~/images/nophoto.png" class="card-img-top product-image" alt="Product Image">
-                            }
+                            <div class="image-container">
+                                @if (!string.IsNullOrEmpty(item.PhotoPath))
+                                {
+                                    <img src="~/images/@item.PhotoPath" class="card-img-top product-image" alt="Product Image">
+                                }
+                                else
+                                {
+                                    <img src="~/images/nophoto.png" class="card-img-top product-image" alt="Product Image">
+                                }
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">@Html.DisplayFor(modelItem => item.ProductName)</h5>
                                 <p class="card-text">Price: @Html.DisplayFor(modelItem => item.Price)</p>
@@ -95,18 +97,3 @@
 </div>
 
 <link rel="stylesheet" href="~/css/SearchForm.css" />
-<style>
-    .product-image {
-        height: 100%; /* Set the desired height for the product images */
-        object-fit: cover; /* Maintain aspect ratio and cover the entire container */
-        width: 100%; /* Ensure the image takes up the entire width of the container */
-    }
-
-    
-    /* .card {
-        width: 50%;
-    } */
-</style>
-<script>
-    
-</script>

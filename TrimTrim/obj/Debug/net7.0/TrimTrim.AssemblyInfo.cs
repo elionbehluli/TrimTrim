@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrimTrim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11736481908d5b8ada46dda137d53185dc31d5f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrimTrim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrimTrim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
