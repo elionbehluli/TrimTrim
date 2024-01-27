@@ -6,9 +6,6 @@
     <title>@ViewData["Title"] - TrimTrim</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/grid.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/Admin.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/LogIn.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/TrimTrim.styles.css" asp-append-version="true" />
     <style>
         body {
@@ -43,8 +40,11 @@
                         <li class="nav-item @(IsPageActive("/Index") ? "active" : "")">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
-                        <li class="nav-item @(IsPageActive("/Privacy") ? "active" : "")">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        <li class="nav-item @(IsPageActive("/ProductMaster/index") ? "active" : "")">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/ProductMaster/index">Product</a>
+                        </li>
+                        <li class="nav-item @(IsPageActive("/ServiseMaster/index") ? "active" : "")">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/ServiceMaster/index">Services</a>
                         </li>
                         <li class="nav-item @(IsPageActive("/Admin/Login") ? "active" : "")">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Admin/Login">Admin</a>
