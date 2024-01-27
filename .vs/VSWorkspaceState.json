@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TrimTrim",
+    "\\TrimTrim\\Migrations",
+    "\\TrimTrim\\Pages",
+    "\\TrimTrim\\Pages\\Admin"
   ],
-  "SelectedNode": "\\TrimTrim.sln",
+  "SelectedNode": "\\TrimTrim\\Pages\\Admin\\AdminDashboard.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -1,5 +1,10 @@
-﻿.container {
+﻿body {
+    background-color: #3ca7e2;
+}
+.container {
     max-width: 800px;
+    
+    
 }
 
 .dashboard-card {
@@ -12,7 +17,8 @@
 }
 
 h1 {
-    color: #343a40; /* Dark text color */
+    color: #000000; /* Dark text color */
+    text-align:center;
 }
 
 .dashboard-btn {
@@ -21,30 +27,46 @@ h1 {
 }
 
 .btn-primary {
-    background-color: #007bff; /* Primary color for products */
-    color: #ffffff;
+    background-color: #b07206; /* Primary color for products */
+    color: #000000;
 }
 
 .btn-success {
-    background-color: #28a745; /* Success color for services */
-    color: #ffffff;
+    background-color: #b07206; /* Success color for services */
+    color: #000000;
 }
 
 .btn-info {
-    background-color: #17a2b8; /* Info color for appointments */
-    color: #ffffff;
+    background-color: #b07206 !important; /* Info color for appointments */
+    color: #000000;
 }
 
 .btn-warning {
-    background-color: #ffc107; /* Warning color for users */
-    color: #343a40;
+    background-color: #3ca7e2; /* Warning color for users */
+    color: #000000;
 }
 
 .logout-btn {
     background-color: #dc3545; /* Danger color for logout */
     color: #ffffff;
+    
 }
 
 .stretched-btn {
     width: 100%;
+}
+.logout-btn:hover {
+    background-color: #dc3545; /* Change color on hover (optional) */
+}
+.btn-primary:hover {
+    background-color: #855b06; /* Change color on hover (optional) */
+}
+.btn-success:hover {
+    background-color: #855b06; /* Change color on hover (optional) */
+}
+.btn-info:hover {
+    background-color: #855b06; /* Change color on hover (optional) */
+}
+.btn-warning:hover {
+    background-color: #064ced; /* Change color on hover (optional) */
 }

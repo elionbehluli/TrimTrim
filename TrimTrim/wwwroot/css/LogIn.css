@@ -1,4 +1,7 @@
-﻿form {
+﻿body {
+    background-color: #3ca7e2;
+}
+form {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: auto;

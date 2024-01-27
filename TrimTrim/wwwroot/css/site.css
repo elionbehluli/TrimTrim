@@ -19,9 +19,20 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-image: url("../Images/backgroundBarber1.jpg") !important;
+    background-image:url("../images/barber4.jpg");
+
     background-size: 20px 20px;
 }
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)); /* Adjust the opacity as needed */
+        z-index: -1;
+    }
 
 .navbar {
     background-color: #343a40; /* Dark background color */
